@@ -100,7 +100,7 @@ class ContactList extends React.Component{
     <ModalBody>
     <Row>
       <Col xs="12" sm="5">
-      <img className="img-responsive" src={state.picture} width="100%"/>
+      <img className="img-responsive" alt={state.name} src={state.picture} width="100%"/>
       </Col>
       <Col xs="12" sm="7">
         <Row><Col sm="12"><h2>{state.name}</h2></Col></Row>

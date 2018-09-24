@@ -1,5 +1,5 @@
 import React from 'react';
-import { Alert, Jumbotron, Col, Row, Button, Form, FormGroup, Label, Input } from 'reactstrap';
+import { Alert, Jumbotron, Col, Row, Form, FormGroup, Label, Input } from 'reactstrap';
 import { connect } from 'react-redux'
 import { addContact } from '../../../redux/actions/contacts'
 import LaddaButton, { XL, EXPAND_LEFT  } from 'react-ladda'
